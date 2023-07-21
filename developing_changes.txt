@@ -1,0 +1,11 @@
+for developing only
+
+git reset HEAD
+git reset --hard
+git reset --soft 'commit code'
+
+git tag -a v1.0.0
+git tag -m "test tagged: -a v1.0.0
+git tag --list
+git push --tags
+git ls-remote --tags
